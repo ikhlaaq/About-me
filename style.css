@@ -32,11 +32,11 @@ h5 {
     color: #795548;
     font-size: 20px;
     text-decoration: none;
-    text-shadow: 2px 2px 4px #4caf50;
+    text-shadow: 2px 2px 4px #d33838;
     }
 
     .navigation > .links li > .link:hover {
-        text-shadow: 2px 4px 8px #d33838;
+        text-shadow: 2px 4px 8px #4caf50;
         
     }
 header img {
