@@ -5,9 +5,40 @@ body {
     margin: 0;
 }
 h1 {
+    background-color: #310b0b;
     text-align: center;
-    
+           
 }
+h5 {
+    text-align: center;
+}
+
+.navigation {
+       text-align: center;
+
+}
+.navigation > .links {
+    list-style: none;
+
+}
+
+.navigation > .links li {
+    display: inline-block;
+    margin-right: 30px;
+    border-bottom: 3px solid #310b0b;
+}
+
+.navigation > .links li > .link {
+    color: #795548;
+    font-size: 20px;
+    text-decoration: none;
+    text-shadow: 2px 2px 4px #4caf50;
+    }
+
+    .navigation > .links li > .link:hover {
+        text-shadow: 2px 4px 8px #d33838;
+        
+    }
 header img {
     width: 50%;
     display: block;
@@ -16,6 +47,7 @@ header img {
     box-shadow: 2px 2px 4px #795548;
     border: 6px groove #310b0b;
     border-top: 10px groove #d33838;
+    padding: 15px;
 
 }
 
@@ -53,7 +85,7 @@ header img {
 article {
     width: 250px;
     margin-left: 7%;
-    padding: 10px;
+    padding: 15px;
     display: inline-table;
     border: groove #310b0b;
     border-top: 10px groove #d33838;
