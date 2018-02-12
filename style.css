@@ -1,0 +1,69 @@
+body {
+    background-color: #000;
+    color: #795548;
+    font-family: "Open Sans";
+    margin: 0;
+}
+h1 {
+    text-align: center;
+    
+}
+header img {
+    width: 50%;
+    display: block;
+    margin: auto;
+    border-radius: 4px;
+    box-shadow: 2px 2px 4px #795548;
+    border: 6px groove #310b0b;
+    border-top: 10px groove #d33838;
+
+}
+
+.about-me{
+    width: 50%;
+    display: block;
+    margin: auto;
+    text-align: center;
+   
+}
+.my-details {
+    padding: 5px;
+    text-align: center;
+
+}
+.more-details {    
+    color: #ffffff;
+    list-style: none;
+    text-align: center;
+    background-color: #310b0b;
+    
+}
+
+.more-details > li {
+    display: inline-block;
+    margin-right: 20%;
+    padding: 15px;
+  
+}
+.more-details > li:hover {
+    text-shadow: 2px 4px 8px #d33838;
+   
+}
+
+article {
+    width: 250px;
+    margin-left: 7%;
+    padding: 10px;
+    display: inline-table;
+    border: groove #310b0b;
+    border-top: 10px groove #d33838;
+      
+  }
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #310b0b;
+    margin-top: 20px;
+    
+}
